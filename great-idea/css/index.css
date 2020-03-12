@@ -63,8 +63,22 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
 /* Your code starts here! */
 
+
+
+
+
+*{
+	/* border: 2px solid red; */
+}
 
 body {
 	border: 30px solid white;
@@ -74,11 +88,28 @@ body {
 
 /* Navigation */
 
-.navigation nav a {
+.navigation {
+	/* display: inline-block; */
+	width: 100%;
+	/* margin: 0 8%; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav {
+	/* display: inline-block; */
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav a {
 	color: gray;
 	text-decoration: none;
-	display: inline-block;
-	margin: 15px 3%;
+	/* display: inline-block;
+	margin: 15px 3%; */
 }
 
 @keyframes navBar {
@@ -101,20 +132,11 @@ body {
 }	
 
 .logo {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 10px 0;
 }
 
-nav{
-	display: inline-block;
-	width: 75%;
-}
 
-.navigation {
-	display: inline-block;
-	width: 100%;
-	margin: 0 8%;
-}
 
 
 
@@ -122,11 +144,12 @@ nav{
 
 header {
 	text-align: center;
-	padding: 30px 0;
+	/* padding: 30px 0; */
 	width: 100%;
-	display: inline-block;
+	display: flex;
 	border-bottom: 2px solid black;
-	margin: 20px 10%;
+	margin: 5% 0;
+	padding-bottom: 5%;
 }
 
 h1{
@@ -137,7 +160,8 @@ h1{
 }
 
 header div {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	width: 35%;
 	margin: 2px 8%;
 }
@@ -168,15 +192,16 @@ button:hover {
 /* Top Text */
 
 .top-info {
-	display: inline-block;
+	display: flex;
 	width: 100%;
-	margin: 10px 10%;
+	justify-content: space-between;
+	margin-bottom: 5%;
 }
 
 .top-info div {
-	display: inline-block;
-	width: 43%;
-	margin: 10px 3%;
+	/* display: flex; */
+	width: 49%;
+	/* margin: 2% 2%; */
 }
 
 
@@ -184,7 +209,11 @@ button:hover {
 /* Middle Image */
 
 .middle-img {
-	margin: 10px 8%;
+	/* margin: 10px 8%; */
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 5%;
 }
 
 
@@ -192,16 +221,19 @@ button:hover {
 /* Bottom Text */
 
 .bottom-info {
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
 	border-bottom: 2px solid black;
-	margin: 10px 8%;
+	padding-bottom: 5%;
+	/* margin: 10px 8%; */
 }
 
 .bottom-info div {
-	display: inline-block;
-	width: 27%;
-	margin: 10px 3%;
+	/* display: inline-block; */
+	/* width: 27%; */
+	/* margin: 2% 1%; */
+	width: 32%;
 }
 
 
@@ -209,7 +241,8 @@ button:hover {
 /* Contact Info */
 
 .contact {
-	margin-left: 12%;
+	/* display: flex; */
+	margin: 5% 0;
 }
 
 
