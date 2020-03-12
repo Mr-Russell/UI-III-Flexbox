@@ -89,7 +89,6 @@ body {
 /* Navigation */
 
 .navigation {
-	/* display: inline-block; */
 	width: 100%;
 	/* margin: 0 8%; */
 	display: flex;
@@ -98,18 +97,16 @@ body {
 }
 
 nav {
-	/* display: inline-block; */
 	width: 80%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
 nav a {
 	color: gray;
 	text-decoration: none;
-	/* display: inline-block;
-	margin: 15px 3%; */
+	/* margin: 15px 3%; */
 }
 
 @keyframes navBar {
@@ -132,7 +129,6 @@ nav a {
 }	
 
 .logo {
-	/* display: inline-block; */
 	margin: 10px 0;
 }
 
@@ -230,7 +226,6 @@ button:hover {
 }
 
 .bottom-info div {
-	/* display: inline-block; */
 	/* width: 27%; */
 	/* margin: 2% 1%; */
 	width: 32%;
