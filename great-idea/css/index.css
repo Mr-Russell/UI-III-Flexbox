@@ -276,7 +276,7 @@ footer {
 
 
 
-/* SERVICES-SPECIC STYLES ONLY!!! */
+/* SERVICES-SPECIFICC STYLES ONLY!!! */
 
 /* *{
 	border: 2px solid red;
@@ -379,3 +379,25 @@ li {
 
 
 
+/* SERVICES-SPECIFICC STYLES ONLY!!! */
+
+#people {
+	margin-bottom: 4%;
+}
+
+.pics {
+	height: 200px;
+	width:150px;
+}
+
+.person {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 3% 0;
+}
+
+.biography {
+	width: 75%;
+	Align-items: space-around;
+}
